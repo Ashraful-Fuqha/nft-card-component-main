@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;    
+}
+
+.container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+h1{ 
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.image-top{
+    width: 270px;
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 10px;
+
+}
+
+.first{
+    color: hsl(215, 51%, 70%)
+}
+
+.third{
+    color: cyan;
+}
+
+.text{
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.con2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 20px;
+}
+.eicon{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.cicon{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.avatar img{
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.avatar{
+    margin:  10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+span{
+    color: hsl(215, 51%, 70%)
+}
+
+.image{
+    width: 271px;
+    height: 271px;
+    position: relative;
+    margin-top: 10px;
+}
+.image-overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.image-overlay{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        height: 270px;
+        width: 270px;
+        background-color: hsla(178, 100%, 50%, 0.5);
+        display: none;
+        border-radius: 10px;
+}
+
+.image:hover .image-overlay,
+.image.hover img{
+    display: block;
+}
+
+h1:hover, .second:hover{
+    color: cyan;
+    cursor:grab;
+}
