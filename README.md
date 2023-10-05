@@ -22,7 +22,7 @@ Users should be able to:
 ![screenshot](./design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://ashraful-fuqha.github.io/nft-card-component-main/)
+- Live Site URL: [Live site URL](https://ashraful-fuqha.github.io/nft-card-component-main/)
 
 ## My process
 
